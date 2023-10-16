@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer="" src="script.js"></script>
+    <title>EDUCORE</title>
+  </head>
+  <body class="stop-scrolling">
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <span id="logo" class="nav__logo">EDUCORE</span>
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Features</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Plans</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Create account</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          Where
+          <!-- Green highlight effect -->
+          <span class="highlight">education</span>
+          meets <br />
+          <span class="highlight">innovation</span>
+        </h1>
+        <h4>Unlock your potential, achieve your goals with EduCore</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+        <img
+          src="img/hero.png"
+          class="header__img"
+          alt="hero-img"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">Elevate your learning experience</h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/path-lazy.jpg"
+          data-src="img/path.jpg"
+          alt="Path"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">
+            Personalized learning paths tailored to your goals and interests
+          </h5>
+          <p>
+            At EduCore, we understand that every learner has unique needs and
+            goals. That's why we offer personalized learning paths that are
+            tailored to your individual interests and objectives.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">
+            Interactive and engaging courses with expert instructors
+          </h5>
+          <p>
+            Our courses are designed to be interactive and engaging, with expert
+            instructors who are passionate about their subject matter. You'll
+            have access to high-quality video lessons, interactive exercises,
+            and real-world projects that help you apply what you've learned.
+          </p>
+        </div>
+        <img
+          src="img/cours-lazy.jpg"
+          data-src="img/cours.jpg"
+          alt="Cours"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/topic-lazy.jpg"
+          data-src="img/topic.jpg"
+          alt="Topic"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">
+            Access to a vast library of topics and resources
+          </h5>
+          <p>
+            EduCore offers a vast library of topics and resources to help you
+            stay on top of your game. From coding to marketing, we've got you
+            covered.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Plans</h2>
+        <h3 class="section__header">Choose the plan that's right for you</h3>
+      </div>
+
+      <div class="plans">
+        <div class="plans__tab-container">
+          <button
+            class="btn plans__tab plans__tab--1 plans__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Basic:
+          </button>
+          <button class="btn plans__tab plans__tab--2" data-tab="2">
+            <span>02</span>Premium:
+          </button>
+          <button class="btn plans__tab plans__tab--3" data-tab="3">
+            <span>03</span>Enterprise:
+          </button>
+        </div>
+        <div class="plans__content plans__content--1 plans__content--active">
+          <div class="plans__icon plans__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="plans__header">
+            Recommended for start if you want to learn from time to time
+          </h5>
+          <p>
+            This plan is perfect for learners who want to dip their toes into
+            the world of online education. With access to select courses and
+            limited features, the Basic plan is an affordable option for those
+            on a budget.
+          </p>
+        </div>
+
+        <div class="plans__content plans__content--2">
+          <div class="plans__icon plans__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="plans__header">
+            Recommended for learners who are serious about expanding their
+            knowledge
+          </h5>
+          <p>
+            The Premium plan offers full access to all courses and features on
+            the platform. This plan is ideal for learners who want to explore a
+            variety of subjects and achieve their goals quickly.
+          </p>
+        </div>
+        <div class="plans__content plans__content--3">
+          <div class="plans__icon plans__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="plans__header">
+            The Enterprise plan is designed for businesses and organizations
+          </h5>
+          <p>
+            This plan offers advanced analytics and reporting features, as well
+            as dedicated support from a EduCore representative and provide
+            employees with access to high-quality online education.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Not sure yet?</h2>
+        <h3 class="section__header">
+          Millions of students are already using EduCore
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best decision ever!</h5>
+            <blockquote class="testimonial__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusantium quas quisquam non? Quas voluptate nulla minima
+              deleniti optio ullam nesciunt, numquam corporis et asperiores
+              laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
+              id alias reiciendis, perferendis facere pariatur dolore veniam
+              autem esse non voluptatem saepe provident nihil molestiae.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Leo Kim</h6>
+              <p class="testimonial__location">South Korean</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The last step to becoming a complete student
+            </h5>
+            <blockquote class="testimonial__text">
+              Quisquam itaque deserunt ullam, quia ea repellendus provident,
+              ducimus neque ipsam modi voluptatibus doloremque, corrupti
+              laborum. Incidunt numquam perferendis veritatis neque repellendus.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+              deserunt exercitationem deleniti.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Sofia Rodriguez</h6>
+              <p class="testimonial__location">Mexican</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Finally free from old-school edu platforms
+            </h5>
+            <blockquote class="testimonial__text">
+              Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+              incidunt commodi architecto numquam omnis nulla autem,
+              necessitatibus blanditiis modi similique quidem. Odio aliquam
+              culpa dicta beatae quod maiores ipsa minus consequatur error sunt,
+              deleniti saepe aliquid quos inventore sequi. Necessitatibus id
+              alias reiciendis, perferendis facere.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Ahmed Khan</h6>
+              <p class="testimonial__location">Pakistanian</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          Join EduCore and take your education to the next level!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">
+        Create your free account today!
+      </button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your student account <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay"></div>
+
+    
+  </body>
+</html>
